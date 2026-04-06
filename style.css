@@ -1,0 +1,49 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Modern UI Fontu */
+    font-size: 16px; /* Okunabilirlik için boyut artırıldı */
+    background-color: #f0f0f0; /* Web sayfasının arka plan rengi */
+    color: #333333; /* Metin rengi */
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+    min-height: 100vh;
+}
+
+@keyframes color-change {
+0% {
+color: blue;
+}
+
+50% {
+color: red;
+}
+
+100% {
+color: blue;
+}
+}
+
+h1 {
+animation: color-change 3s infinite;
+}
+
+
+@keyframes color-change {
+0% {
+color: blue;
+}
+
+50% {
+color: red;
+}
+
+100% {
+color: blue;
+}
+}
+
+h2:hover {
+animation: color-change 3s infinite;
+}
+
